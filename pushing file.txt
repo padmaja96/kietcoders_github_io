@@ -1,0 +1,25 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\paddu>cd desktop
+
+C:\Users\paddu\Desktop>cd kietcoders_github_io
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git add .
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git  commit -m "added file"
+[master 0c98866] added file
+ 2 files changed, 67 insertions(+)
+ create mode 100644 creating a new reposetery.txt
+ create mode 100644 mypage.txt
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git push  origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.19 KiB | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/padmaja96/kietcoders_github_io.git
+   d5760f9..0c98866  master -> master
+
+C:\Users\paddu\Desktop\kietcoders_github_io>
