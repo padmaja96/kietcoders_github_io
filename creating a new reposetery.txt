@@ -1,0 +1,66 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\paddu>cd desktop
+
+C:\Users\paddu\Desktop>git clone https://github.com/padmaja96/kietcoders_github_io.git
+Cloning into 'kietcoders_github_io'...
+warning: You appear to have cloned an empty repository.
+
+C:\Users\paddu\Desktop>cd kietcoders_github_io
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git init
+Reinitialized existing Git repository in C:/Users/paddu/Desktop/kietcoders_github_io/.git/
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git add .
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git  commit -m  "text is added"
+[master (root-commit) d5760f9] text is added
+ 2 files changed, 17 insertions(+)
+ create mode 100644 New Text Document.txt
+ create mode 100644 mypage1.html
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git remote add orign
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git remote add origin https://github.com/padmaja96/kietcoders_github_io.git
+fatal: remote origin already exists.
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git remote add orign
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=<push|fetch>]
+                          set up remote as a mirror to push to or fetch from
+
+
+C:\Users\paddu\Desktop\kietcoders_github_io>git push -u origin master
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 716 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/padmaja96/kietcoders_github_io.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\paddu\Desktop\kietcoders_github_io>https://github.com/padmaja96/kietcoders_github_io.githttps://github.com/padmaja96/kietcoders_github_io.githttps://github.com/padmaja96/kietcoders_github_io.git
